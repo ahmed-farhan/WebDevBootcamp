@@ -1,0 +1,16 @@
+p {
+/*Content - Width and Height*/
+	/*percentage notation for neight and width is relative to the parent element*/
+	width: 25%;
+
+/*Border*/
+	border: 2px solid blue;
+
+/*Padding*/
+	/*the space between the content and its border*/
+	padding-left: 40px;
+
+/*Margin*/
+	/*the space on the outside of the border (space between elements)*/
+	margin:100px;
+}

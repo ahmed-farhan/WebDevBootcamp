@@ -1,0 +1,31 @@
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+table {
+	margin: 0 auto;
+	size: 50px;
+}
+
+
+.left {
+	border-bottom: 2px solid black;
+	padding: 65px;
+}
+
+.middle {
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 65px;
+}
+
+.right {
+	border-bottom: 2px solid black;
+	padding: 65px;
+}
+
+tr:nth-of-type(3) td {
+	border-bottom: none;
+}
