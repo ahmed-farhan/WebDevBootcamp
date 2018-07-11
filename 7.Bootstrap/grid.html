@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid System</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<style type="text/css">
+		.pink {
+			background: pink;
+			border: 1px solid green;
+		}
+
+		.orange {
+			background: orange;
+			border: 1px dashed red;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">				
+		<!-- <div class="row"> -->
+			<!-- columns are out of a total of 12 and should add up to 12  -->
+			<!-- if there are more than 12 columns in a single row, it will automatically carry over to the next row  -->
+<!-- 			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+		</div> -->
+
+		<!-- <div class="row"> -->
+			<!-- bootstrap will use specified medium value for large, if large value no exclicitly specified -->
+<!-- 			<div class="col-md-3 col-sm-6 pink">TOUR DATES!</div>
+			<div class="col-md-3 col-sm-6 pink">TOUR DATES!</div>
+			<div class="col-md-3 col-sm-6 pink">TOUR DATES!</div>
+			<div class="col-md-3 col-sm-6 pink">TOUR DATES!</div>
+		</div> -->
+
+		<div class="row">
+			<div class="col-md-3 col-sm-6 pink"> TOUR DATES!
+				<!-- You can create nested columns by adding a new row within an existing column -->
+<!-- 				<div class="row">
+					<div class="col-md-3 orange">Sub Column</div>
+					<div class="col-md-3 orange">Sub Column</div>
+					<div class="col-md-3 orange">Sub Column</div>
+					<div class="col-md-3 orange">Sub Column</div>
+				</div> -->
+			</div>
+			<div class="col-md-3 col-sm-6 pink">TOUR DATES!</div>
+			<div class="col-md-3 col-sm-6 pink">TOUR DATES!</div>
+			<div class="col-md-3 col-sm-6 pink">TOUR DATES!</div>
+		</div>
+	</div>
+
+</body>
+</html>
